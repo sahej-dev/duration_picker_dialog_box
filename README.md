@@ -14,7 +14,7 @@
 It will show a dialog box for duration with Duration(days: 7, minutes: 32, hours: 23, seconds: 54, milliseconds: 23, microseconds: 434) initialized. Now user can change it as per need. 
 
 
-```
+```dart
 import 'package:flutter/material.dart';
 import 'package:duration_picker/duration_picker/duration_picker.dart';
 
@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 User can also use Duration Picker Mode as per Need.
-```
+```dart
 _DurationPickerMode { 
     Day, 
     Hour, 
@@ -89,7 +89,7 @@ _DurationPickerMode {
 ```
  Like as below..
 
- ```
+ ```dart
 showDurationPicker(
     context: context,
     initialDuration: Duration(),
@@ -99,7 +99,7 @@ showDurationPicker(
 
 User can also use Duration Picker as a Widget usig below code.
 
-```
+```dart
 DurationPicker(
     duration: _duration,
     onChange: (value) {
