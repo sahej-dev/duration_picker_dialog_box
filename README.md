@@ -1,6 +1,6 @@
 # Dialog Box for picking Duration via UI.
 
-### DialogBox allow user to  Select any of Duration fields like - 
+### DialogBox allow user to select any of Duration fields like - 
 1. Days
 2. Hours
 3. Minutes
