@@ -1,4 +1,5 @@
 # Dialog Box for picking Duration via UI.
+This is a fork of https://github.com/ashutosh2014/duration_picker_dialog_box. I had to make some modifications in the original for use in a project of my own.
 
 ### DialogBox allow user to select any of Duration fields like - 
 1. Days
