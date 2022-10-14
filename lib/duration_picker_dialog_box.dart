@@ -711,7 +711,8 @@ class _DurationPickerState extends State<_DurationPickerDialog> {
     );
 
     return Dialog(
-      backgroundColor: theme.colorScheme.surface,
+      backgroundColor: Theme.of(context).colorScheme.surface,
+      surfaceTintColor: Theme.of(context).colorScheme.surfaceTint,
       elevation: 3,
       child: Container(
         padding: const EdgeInsets.all(_kDefaultPadding * 3),
